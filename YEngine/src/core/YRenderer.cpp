@@ -1,6 +1,6 @@
 #include "../../headers/YRenderer.h"
 
-// will create the projection matrix and link it with the shader programm
+// Initializes GLEW
 YRenderer::YRenderer()
 {
   glewInit();
@@ -13,7 +13,7 @@ void YRenderer::prepare()
   glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 };
 
-// will render a given entity with an assigned shader
+// will render a given entity (with an assigned shader)
 void YRenderer::render(YMesh* mesh)
 {
   glBindVertexArray(mesh->getVaoID());
@@ -21,9 +21,4 @@ void YRenderer::render(YMesh* mesh)
   glDrawArrays(GL_TRIANGLES, 0,3);
 
   glBindVertexArray(0);
-};
-
-void YRenderer::createProjectionMatrix()
-{
-
 };
