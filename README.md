@@ -13,3 +13,11 @@ https://www3.ntu.edu.sg/home/ehchua/programming/opengl/HowTo_OpenGL_C.html
 To start the basic renderer navigate to the make folder and execute the "start" file, via the command:
 
 ./start
+
+Or navigate to the "make" folder, type in the command:
+
+make
+
+and execute the resulting "YEngine" file via the command:
+
+./YEngine
