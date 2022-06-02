@@ -1,5 +1,5 @@
 # YEngine
-A c++ basic rendering engine using openGL. It*s capabel of rendering basic meshes and applying shaders.
+A c++ basic rendering engine using openGL. It*s capabel of rendering basic meshs and applying shaders.
 
 # Setup
 For YEngine it is requiered to setup your environment to support OpenGL GLEW GLFW GLUT.
