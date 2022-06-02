@@ -1,4 +1,4 @@
-# YEngine
+# YEngine_basic
 A c++ basic rendering engine using openGL. It*s capabel of rendering basic meshs and applying shaders.
 
 # Setup
